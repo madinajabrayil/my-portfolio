@@ -1,0 +1,129 @@
+    .portfolio-section {
+        /* background-color: black; */
+        width: 100%;
+        height: auto;
+        color: white;
+        padding: 20px 0;
+    }
+    
+    .portfolio-h2 {
+        margin-top: 0;
+        margin-bottom: 50px;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .portfolio {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .demos {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .portfo-demo {
+        width: 28%;
+        margin-right: 4%;
+        height: 400px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        margin-bottom: 4%;
+        display: flex;
+        /* justify-content: center; */
+        padding: 10px;
+        flex-direction: column;
+        /* align-content: center; */
+    }
+    
+    .portfo-demo:nth-child(3),
+    .portfo-demo:nth-child(6),
+    .portfo-demo:nth-child(9) {
+        margin-right: 0;
+    }
+    
+    .demo-image {
+        width: 100%;
+        height: 180px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    .img {
+        width: 100%;
+        height: 180px;
+        filter: grayscale(1);
+        /* filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%); */
+    }
+    
+    .opacity {
+        width: 100%;
+        height: 180px;
+        /* background-color: rgba(0, 0, 0, 0.445); */
+        opacity: .2;
+        position: absolute;
+    }
+    
+    .demo-btns {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .demo-btns a {
+        /* height: 50px; */
+        padding: 15px 0;
+        /* width: 100%; */
+        /* padding: 15px 30px; */
+        /* background-color: #1E1E1E;
+    color: white; */
+        /* margin: 10px; */
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-size: 19px;
+        text-align: center;
+        background-color: transparent;
+        border: 4px solid #1E1E1E;
+        color: black;
+        border-radius: 5px;
+    }
+    
+    .demo-btns a:hover {
+        color: white;
+        background-color: #1e1e1e;
+        transition: .3s ease-in;
+    }
+    
+    .demo-btns a>i {
+        margin-right: 15px;
+    }
+    
+    .project-name {
+        margin-top: 7px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .portfolio-h2 {
+            margin-top: 40%;
+            margin-bottom: 30px;
+            color: white;
+            font-size: 30px;
+        }
+        .demos {
+            flex-direction: column;
+        }
+        .portfo-demo {
+            width: 75%;
+            /* margin-right: 5%; */
+            margin-left: 10%;
+            margin-bottom: 30px;
+        }
+    }
