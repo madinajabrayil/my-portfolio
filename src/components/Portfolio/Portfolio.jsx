@@ -4,6 +4,7 @@ import demo1 from '../../images/demo1.png';
 import demo2 from '../../images/demo2.png';
 import demo3 from '../../images/demo3.png';
 import demo4 from '../../images/demo4.png';
+import demo5 from '../../images/demo5.png';
 
 
 class  Portfolio extends Component{
@@ -34,6 +35,13 @@ class  Portfolio extends Component{
                 demoUrl:"https://adminpanel1.netlify.app/index.html",
                 codeUrl:"https://github.com/madinajabrayil/AdminPanel"
                },
+               {
+                projectName:"Dashboard",
+                imageSrc:demo5,
+                demoUrl:"dashboard-project1.netlify.app",
+                codeUrl:"https://github.com/madinajabrayil/dashboard"
+               },
+           
            
                
 
