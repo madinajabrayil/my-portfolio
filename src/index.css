@@ -1,20 +1,19 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: black;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 html {
-    /* scroll-behavior: smooth; */
     scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
+
 }
