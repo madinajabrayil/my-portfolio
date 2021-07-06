@@ -1,0 +1,109 @@
+    .about-section {
+        width: 100%;
+        height: auto;
+        margin-top: 6%;
+        color: #2b2929;
+        display: flex;
+    }
+    
+    .about-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+    }
+    
+    .about-content {
+        color: #2b2929;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    .abt-ic {
+        font-size: 45px;
+    }
+    
+    .text {
+        width: 60%;
+        margin: 3% auto;
+        line-height: 2;
+        font-size: 20px;
+    }
+    
+    .about-h2 {
+        margin-bottom: 10px;
+        color: #2b2929;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .products {
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    
+    .product {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .product p {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    
+    .pr-ic {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    
+    .line-x {
+        height: 3px;
+        width: 30%;
+        background-color: black;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .about-h2 {
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color: white;
+            font-size: 28px;
+        }
+        .about-container {
+            flex-direction: column;
+        }
+        .text {
+            width: 100%;
+            margin-top: -5%;
+            line-height: 2;
+            font-size: 16px;
+            margin-left: 45px;
+        }
+        .about-img {
+            width: 80%;
+            height: 220px;
+            filter: grayscale(1);
+            border-radius: 10px;
+            margin-left: 105px;
+        }
+        .about-img-section {
+            width: 80%;
+            height: 220px;
+            margin-top: 25px;
+        }
+        .about-content {
+            color: #ffffff;
+            width: 85%;
+            height: 185px;
+        }
+    }

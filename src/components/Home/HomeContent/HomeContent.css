@@ -1,0 +1,78 @@
+.home-content {
+    position: absolute;
+    top: 150px;
+    color: white;
+    width: 100%;
+}
+
+.content-container {
+    width: 80%;
+    margin: auto;
+}
+
+.content-text {
+    font-size: 23px;
+    margin-bottom: 50px;
+    width: 22ch;
+    animation: typing 2s steps(22), blink 1s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.down-icon {
+    margin-right: 15px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.content-h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.cv {
+    border: 1px solid white;
+    padding: 15px 45px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cv:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.3s ease-in;
+    border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-h1 {
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .content-text {
+        font-size: 16px;
+    }
+    .cv {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}

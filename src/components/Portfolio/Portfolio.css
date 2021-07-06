@@ -1,0 +1,157 @@
+        .portfolio-section {
+            width: 100%;
+            height: auto;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        .portfolio-h2 {
+            margin-top: 0;
+            margin-bottom: 50px;
+            color: black;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        
+        .portfolio {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        .demos {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .portfo-demo {
+            width: 28%;
+            margin-right: 4%;
+            height: 250px;
+            border: 1px solid white;
+            background-color: white;
+            color: black;
+            margin-bottom: 4%;
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        .portfo-demo:nth-child(3),
+        .portfo-demo:nth-child(6),
+        .portfo-demo:nth-child(9) {
+            margin-right: 0;
+        }
+        
+        .demo-image {
+            height: 100%;
+            margin-bottom: 15px;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .img {
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all .6s ease;
+        }
+        
+        .opacity {
+            width: 100%;
+            height: 180px;
+            opacity: .2;
+            position: absolute;
+        }
+        
+        .demo-btns {
+            height: 184px;
+            width: 94.4%;
+            background: rgba(51, 51, 51, .8);
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            visibility: hidden;
+        }
+        
+        .demo-btns a {
+            padding: 15px 0;
+            margin-bottom: 15px;
+            text-decoration: none;
+            font-size: 19px;
+            text-align: center;
+            background-color: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            display: flex;
+            width: 150px;
+            height: 20px;
+            justify-content: center;
+            font-weight: 400;
+        }
+        
+        .demo-btns a:hover {
+            color: #2b2929;
+            background-color: rgba(240, 236, 236, 0.9);
+            transition: .3s ease-in;
+        }
+        
+        .portfo-demo:hover .demo-image {
+            overflow: hidden;
+        }
+        
+        .portfo-demo:hover .img {
+            transform: scale(1.2);
+        }
+        
+        .portfo-demo:hover .demo-btns {
+            visibility: visible;
+        }
+        
+        .demo-btns a>i {
+            margin-right: 15px;
+        }
+        
+        .project-name {
+            margin-top: 7px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        @media (max-width:1200px) and (min-width:600px) {
+            .portfo-demo:nth-child(3),
+            .portfo-demo:nth-child(6),
+            .portfo-demo:nth-child(9) {
+                margin-right: 4%;
+            }
+            .portfo-demo {
+                width: 42%;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .portfolio-h2 {
+                margin-top: 45%;
+                margin-bottom: 30px;
+                color: white;
+                font-size: 30px;
+            }
+            .demos {
+                flex-direction: column;
+            }
+            .portfo-demo {
+                width: 75%;
+                margin-left: 10%;
+                margin-bottom: 30px;
+            }
+        }
