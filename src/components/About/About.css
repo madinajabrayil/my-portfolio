@@ -1,4 +1,4 @@
-    .about-section {
+        .about-section {
         width: 100%;
         height: auto;
         margin-top: 6%;
@@ -68,42 +68,52 @@
     .line-x {
         height: 3px;
         width: 30%;
-        background-color: black;
+        background-color: #2b2929;
     }
     
     @media only screen and (max-width: 600px) {
+        .about-section {
+            height: 350px;
+        }
         .about-h2 {
-            margin-left: 30px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            color: white;
+            margin-left: 50px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            color: #2b2929;
             font-size: 28px;
+        }
+        .abt-ic {
+            font-size: 30px;
+            margin-left: 50px;
         }
         .about-container {
             flex-direction: column;
+            text-align: center;
         }
         .text {
             width: 100%;
-            margin-top: -5%;
+            margin-bottom: 30px;
             line-height: 2;
             font-size: 16px;
             margin-left: 45px;
         }
-        .about-img {
-            width: 80%;
-            height: 220px;
-            filter: grayscale(1);
-            border-radius: 10px;
-            margin-left: 105px;
-        }
-        .about-img-section {
-            width: 80%;
-            height: 220px;
-            margin-top: 25px;
-        }
+        
         .about-content {
-            color: #ffffff;
+            color: #2b2929;
             width: 85%;
-            height: 185px;
+        }
+        .products {
+            display: flex;
+            /* width: 85%; */
+            margin-left: 85px;
+            justify-content: center;
+            padding-bottom: 30px;
+        }
+        .pr-ic {
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+        .product p {
+            font-size: 13px;
         }
     }
