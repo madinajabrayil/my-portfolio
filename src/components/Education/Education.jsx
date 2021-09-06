@@ -10,6 +10,11 @@ class Education extends Component{
                   <div className="edu-content">
                         <div className="edu">
                             <div className="edu-info">
+                                <p className="year"><i className="fas fa-clock"></i>2021-2023</p>
+                                <p className="academy"><i className="fas fa-school"></i>Azerbaijan State Economic University</p>
+                                <p className="info"><i className="fas fa-graduation-cap"></i>Risk and Engineering Management</p>
+                            </div>
+                            <div className="edu-info">
                                 <p className="year"><i className="fas fa-clock"></i>2017-2021</p>
                                 <p className="academy"><i className="fas fa-school"></i>Azerbaijan State Oil and Industry University</p>
                                 <p className="info"><i className="fas fa-graduation-cap"></i>Process Automation Engineering</p>
