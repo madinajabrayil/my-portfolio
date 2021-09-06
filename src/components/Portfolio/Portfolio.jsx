@@ -5,7 +5,7 @@ import demo2 from '../../images/demo2.png';
 import demo3 from '../../images/demo3.png';
 import demo4 from '../../images/demo4.png';
 import demo5 from '../../images/demo5.png';
-import demo6 from '../../images/AdminPanel2.png';
+import demo6 from '../../images/demo6.png';
 
 
 class  Portfolio extends Component{
