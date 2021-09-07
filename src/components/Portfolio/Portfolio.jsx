@@ -6,6 +6,7 @@ import demo3 from '../../images/demo3.png';
 import demo4 from '../../images/demo4.png';
 import demo5 from '../../images/demo5.png';
 import demo6 from '../../images/demo6.png';
+import demo7 from '../../images/demo7.png';
 
 
 class  Portfolio extends Component{
@@ -53,6 +54,15 @@ class  Portfolio extends Component{
                 imageSrc:`url(${demo5})`,
                 demoUrl:"https://dashboard-project1.netlify.app/",
                 codeUrl:"https://github.com/madinajabrayil/dashboard"
+               
+            },
+            {
+                id:6,
+                projectName:"Tic-Tac-Toe",
+                imageSrc:`url(${demo7})`,
+                demoUrl:"https://tictactoe-iba.netlify.app",
+                codeUrl:"https://github.com/madinajabrayil/tic-tac-toe"
+             
             },
            
                
